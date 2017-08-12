@@ -3,7 +3,7 @@ list(APPEND CMAKE_MODULE_PATH ${GOPRO_TOOLS_DIR}/cmake)
 include("${GOPRO_TOOLS_DIR}/cmake/gopro.cmake")
 
 gopro_init(CocoaLumberjack)
-gopro_begin_lib(CocoaLumberjack GROUP 3rdparty)
+gopro_begin_lib(CocoaLumberjack GROUP 3rdparty PLATFORMS ios)
 gopro_public_include_dirs(
     Classes
     Classes/CLI
